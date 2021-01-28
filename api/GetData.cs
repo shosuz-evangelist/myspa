@@ -21,6 +21,7 @@ namespace Company.Function
             var results = new Data[] {
                 new Data { Id = 1, Name = "Shotaro" },
                 new Data { Id = 2, Name = "Suzuki" }
+                new Data { Id = 3, Name = "Elastic" }
              };
 
             return new JsonResult(results);
